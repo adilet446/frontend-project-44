@@ -4,7 +4,7 @@
   "description": "[![Actions Status](https://github.com/adilet446/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/adilet446/frontend-project-44/actions)",
   "main": "index.js",
   "bin": {
-    "code": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,8 +19,8 @@
     "url": "https://github.com/adilet446/frontend-project-44/issues"
   },
   "homepage": "https://github.com/adilet446/frontend-project-44#readme",
-  "type":"module",
-  "bin": {
-    "brain-games": "bin/brain-games.js"
+  "type": "module",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
