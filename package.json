@@ -20,7 +20,12 @@
   },
   "homepage": "https://github.com/adilet446/frontend-project-44#readme",
   "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
+  },
   "dependencies": {
+    "brain-even": "^0.1.12",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
     "readline-sync": "^1.4.10"
